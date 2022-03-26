@@ -4,7 +4,7 @@
 int main(){
     char a[100], b, count[26] = {0};
     printf("Enter your string: ");
-    scanf("%s", &a);
+    fgets(a,100,stdin);
     int i, j, f;
     for (i = 0; i < strlen(a); i++){
         if (a[i] >= 'a' && a[i] <= 'z'){ // 'b'
