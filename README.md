@@ -1,3 +1,3 @@
-This is my archive of Grade 11 sxc C programming stuffs.
+This is my archive of Grade 11 and Grade 12 sxc C programming stuffs.
 
-Hope noone sees this. If someone is going through the code, I am welcome to suggestions.
+If someone is going through the code, I am welcome to suggestions.
