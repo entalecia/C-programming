@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void sq_cb(int, int);
+void square(int);
+void cube(int);
 
 int main(){
     int n, a;
@@ -8,14 +9,14 @@ int main(){
     scanf("%d", &n);
     printf("Enter 1 for square or 2 for cube: ");
     scanf("%d", &a);
-    sq_cb(a, n);
+    (a == 1)? square(n): cube(n);
     return 0;
 }
 
-void sq_cb(int n, int a){
-    int y = (a == 1 || a == 2)? 0: printf("Invalid.");
-    int x = (a == 1)? n*n : n*n*n;
-    if(y == 0){
-        printf("Your calculation is %d", x);
-    }
+void square(int a){
+    printf("Square of %d is %d", a, a*a);
+}
+
+void cube(int a){
+    printf("Cube of %d is %d",a, a*a*a);
 }
