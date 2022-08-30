@@ -17,7 +17,7 @@ int main(){
     }
     for(i=0; i<10; i++){
         for(j = i; j < 10; j++){
-            if(strcmp(s[i].name, s[j].name) > 0){
+            if(strcmp(s[i].address, s[j].address) > 0){
                 temp = s[i];
                 s[i] = s[j];
                 s[j] = temp;
