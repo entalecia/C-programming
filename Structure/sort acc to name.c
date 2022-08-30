@@ -25,6 +25,6 @@ int main(){
         }
     }
     for(i=0; i<10; i++){
-        printf("\nName: %s, Marks: %s\n", s[i].name, s[i].address);
+        printf("\nName: %s, Address: %s\n", s[i].name, s[i].address);
     }
 }
