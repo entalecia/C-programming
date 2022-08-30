@@ -6,17 +6,16 @@ struct stu{
 };
 
 int main(){
-    char a[20];
     int p = 0;
     struct stu c;
     printf("Enter your name: ");
-    scanf("%s", a);
-    printf("Enter your marks: ");
+    scanf("%s", c.name);
+    printf("Enter marks of 5 subs: ");
     for(int i = 0; i < 5; i++){
         scanf("%d", &c.m[i]);
     }
     for(int i = 0; i < 5; i++){
         p += c.m[i];
     }
-    printf("%s secured %d percentage", a, p/5);
+    printf("%s secured %d percentage", c.name, p/5);
 }
