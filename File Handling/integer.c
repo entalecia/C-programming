@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &n);
     putw(n, fp);
     fclose(fp);
-    fopen("./Files/file.txt", "r");
+    fp = fopen("./Files/file.txt", "r");
     n = getw(fp);
     printf("The number is: %d", n);
     fclose(fp);
